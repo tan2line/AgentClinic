@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Domain Portfolio 😎</title>
+  <style>
+    :root {
+      --bg: #0f1226;
+      --card: #171a35;
+      --accent: #6ef3d6;
+      --text: #f5f7ff;
+      --muted: #b6bddc;
+      --chip: #2c325e;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      background: radial-gradient(circle at top right, #1f2556 0%, var(--bg) 45%);
+      color: var(--text);
+      line-height: 1.55;
+    }
+
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2.5rem 1rem 4rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      font-size: clamp(1.9rem, 5vw, 3rem);
+      margin: 0;
+      letter-spacing: 0.3px;
+    }
+
+    .sub {
+      color: var(--muted);
+      margin-top: 0.75rem;
+      font-size: 1.02rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .card {
+      background: linear-gradient(160deg, #212754, var(--card));
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.22);
+      transition: transform 180ms ease, border-color 180ms ease;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      border-color: rgba(110, 243, 214, 0.55);
+    }
+
+    .domain {
+      font-weight: 700;
+      font-size: 1.06rem;
+      color: var(--accent);
+      word-break: break-word;
+    }
+
+    .desc {
+      color: #e8ebff;
+      margin: 0;
+      font-size: 0.95rem;
+    }
+
+    .tag {
+      display: inline-block;
+      align-self: flex-start;
+      background: var(--chip);
+      color: #d6deff;
+      border-radius: 999px;
+      padding: 0.2rem 0.6rem;
+      font-size: 0.78rem;
+      letter-spacing: 0.2px;
+    }
+
+    footer {
+      margin-top: 2rem;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <h1>Premium Domain Portfolio 😎</h1>
+      <p class="sub">Short, brandable names ready for startups, creators, and online products.</p>
+    </header>
+
+    <section class="grid" aria-label="Domain portfolio list">
+      <article class="card">
+        <span class="domain">LaunchOrbit.com</span>
+        <p class="desc">Perfect for a startup launch platform, product hunt clone, or growth studio brand.</p>
+        <span class="tag">Startup</span>
+      </article>
+
+      <article class="card">
+        <span class="domain">MintNest.io</span>
+        <p class="desc">Great fit for fintech, crypto tools, or a modern budgeting app with a friendly tone.</p>
+        <span class="tag">Fintech</span>
+      </article>
+
+      <article class="card">
+        <span class="domain">PixelVoyager.com</span>
+        <p class="desc">A strong creative brand for design agencies, content studios, or digital art marketplaces.</p>
+        <span class="tag">Creative</span>
+      </article>
+
+      <article class="card">
+        <span class="domain">QuietPulse.ai</span>
+        <p class="desc">Ideal for AI analytics, sentiment tracking, or decision-support software.</p>
+        <span class="tag">AI</span>
+      </article>
+
+      <article class="card">
+        <span class="domain">TrailLedger.com</span>
+        <p class="desc">Built for travel planning tools, trip journals, or expenses-on-the-go apps.</p>
+        <span class="tag">Travel</span>
+      </article>
+
+      <article class="card">
+        <span class="domain">ChefCanvas.com</span>
+        <p class="desc">Fun and memorable for recipe communities, food creators, or kitchen subscription boxes.</p>
+        <span class="tag">Food</span>
+      </article>
+
+      <article class="card">
+        <span class="domain">TutorSprint.com</span>
+        <p class="desc">Well-suited for fast-paced learning platforms, tutoring marketplaces, or exam prep brands.</p>
+        <span class="tag">Education</span>
+      </article>
+
+      <article class="card">
+        <span class="domain">EchoHarbor.com</span>
+        <p class="desc">Distinctive naming for podcast networks, audio SaaS products, or media communities.</p>
+        <span class="tag">Media</span>
+      </article>
+    </section>
+
+    <footer>
+      Interested in buying a domain? Contact: <strong>hello@yourportfolio.com</strong>
+    </footer>
+  </main>
+</body>
+</html>
